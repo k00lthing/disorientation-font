@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="r_r.liga.alt3" format="2">
+  <advance width="637"/>
+  <outline>
+    <contour>
+      <point x="358" y="610" type="line"/>
+      <point x="358" y="0" type="line"/>
+      <point x="458" y="-70" type="line"/>
+      <point x="458" y="439" type="line"/>
+      <point x="458" y="540" type="line"/>
+    </contour>
+    <contour>
+      <point x="620" y="354" type="line"/>
+      <point x="637" y="423" type="line"/>
+      <point x="612" y="441" type="line"/>
+      <point x="474" y="537"/>
+      <point x="440" y="464"/>
+      <point x="440" y="303" type="curve"/>
+      <point x="458" y="290" type="line"/>
+      <point x="458" y="414"/>
+      <point x="508" y="433"/>
+      <point x="608" y="363" type="curve"/>
+    </contour>
+    <contour>
+      <point x="42" y="416" type="line"/>
+      <point x="42" y="-84" type="line"/>
+      <point x="142" y="-14" type="line"/>
+      <point x="142" y="385" type="line"/>
+      <point x="142" y="486" type="line"/>
+    </contour>
+    <contour>
+      <point x="304" y="528" type="line"/>
+      <point x="321" y="620" type="line"/>
+      <point x="296" y="602" type="line"/>
+      <point x="158" y="506"/>
+      <point x="124" y="385"/>
+      <point x="124" y="224" type="curve"/>
+      <point x="142" y="236" type="line"/>
+      <point x="142" y="360"/>
+      <point x="192" y="449"/>
+      <point x="292" y="519" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-01-25 17:16:56 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>r</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>r</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="w_w.liga.alt3" format="2">
+  <advance width="1328"/>
+  <outline>
+    <contour>
+      <point x="-1" y="345" type="line"/>
+      <point x="121" y="-70" type="line"/>
+      <point x="221" y="0" type="line"/>
+      <point x="319" y="430" type="line"/>
+      <point x="403" y="128" type="line"/>
+      <point x="503" y="198" type="line"/>
+      <point x="649" y="798" type="line"/>
+      <point x="549" y="728" type="line"/>
+      <point x="452" y="293" type="line"/>
+      <point x="369" y="602" type="line"/>
+      <point x="279" y="539" type="line"/>
+      <point x="178" y="102" type="line"/>
+      <point x="99" y="414" type="line"/>
+    </contour>
+    <contour>
+      <point x="679" y="783" type="line"/>
+      <point x="801" y="197" type="line"/>
+      <point x="901" y="127" type="line"/>
+      <point x="999" y="421" type="line"/>
+      <point x="1083" y="0" type="line"/>
+      <point x="1183" y="-70" type="line"/>
+      <point x="1329" y="327" type="line"/>
+      <point x="1229" y="397" type="line"/>
+      <point x="1132" y="98" type="line"/>
+      <point x="1049" y="523" type="line"/>
+      <point x="959" y="586" type="line"/>
+      <point x="858" y="289" type="line"/>
+      <point x="779" y="713" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-01-25 17:11:58 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>w</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>w</string>
+    </dict>
+  </lib>
+</glyph>

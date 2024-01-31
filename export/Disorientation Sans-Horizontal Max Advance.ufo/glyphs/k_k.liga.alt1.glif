@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k_k.liga.alt1" format="2">
+  <advance width="842"/>
+  <outline>
+    <contour>
+      <point x="125" y="281" type="line"/>
+      <point x="318" y="-124" type="line"/>
+      <point x="421" y="-196" type="line"/>
+      <point x="232" y="206" type="line"/>
+      <point x="422" y="318" type="line"/>
+      <point x="316" y="392" type="line"/>
+    </contour>
+    <contour>
+      <point x="42" y="869" type="line"/>
+      <point x="42" y="69" type="line"/>
+      <point x="142" y="-1" type="line"/>
+      <point x="142" y="799" type="line"/>
+    </contour>
+    <contour>
+      <point x="546" y="266" type="line"/>
+      <point x="739" y="-139" type="line"/>
+      <point x="842" y="-211" type="line"/>
+      <point x="653" y="191" type="line"/>
+      <point x="843" y="287" type="line"/>
+      <point x="737" y="361" type="line"/>
+    </contour>
+    <contour>
+      <point x="463" y="854" type="line"/>
+      <point x="463" y="54" type="line"/>
+      <point x="563" y="-16" type="line"/>
+      <point x="563" y="784" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>k</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>k</string>
+    </dict>
+  </lib>
+</glyph>

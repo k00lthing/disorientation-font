@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="u_n.liga" format="2">
+  <advance width="968"/>
+  <outline>
+    <contour>
+      <point x="449" y="0" type="line"/>
+      <point x="449" y="500" type="line"/>
+      <point x="349" y="500" type="line"/>
+      <point x="349" y="101" type="line"/>
+      <point x="349" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="135" y="187" type="curve"/>
+      <point x="135" y="500" type="line"/>
+      <point x="35" y="500" type="line"/>
+      <point x="35" y="187" type="line" smooth="yes"/>
+      <point x="35" y="91"/>
+      <point x="65" y="-8"/>
+      <point x="205" y="-8" type="curve" smooth="yes"/>
+      <point x="343" y="-8"/>
+      <point x="367" y="89"/>
+      <point x="367" y="250" type="curve"/>
+      <point x="349" y="250" type="line"/>
+      <point x="349" y="126"/>
+      <point x="308" y="72"/>
+      <point x="238" y="72" type="curve" smooth="yes"/>
+      <point x="165" y="72"/>
+      <point x="135" y="131"/>
+    </contour>
+    <contour>
+      <point x="509" y="500" type="line"/>
+      <point x="509" y="0" type="line"/>
+      <point x="609" y="0" type="line"/>
+      <point x="609" y="399" type="line"/>
+      <point x="609" y="500" type="line"/>
+    </contour>
+    <contour>
+      <point x="833" y="313" type="curve"/>
+      <point x="833" y="0" type="line"/>
+      <point x="933" y="0" type="line"/>
+      <point x="933" y="313" type="line" smooth="yes"/>
+      <point x="933" y="409"/>
+      <point x="903" y="508"/>
+      <point x="763" y="508" type="curve" smooth="yes"/>
+      <point x="625" y="508"/>
+      <point x="591" y="411"/>
+      <point x="591" y="250" type="curve"/>
+      <point x="609" y="250" type="line"/>
+      <point x="609" y="374"/>
+      <point x="659" y="428"/>
+      <point x="729" y="428" type="curve" smooth="yes"/>
+      <point x="802" y="428"/>
+      <point x="833" y="369"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>n</string>
+    </dict>
+  </lib>
+</glyph>

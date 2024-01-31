@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="r.fina" format="2">
+  <advance width="314"/>
+  <outline>
+    <contour>
+      <point x="35" y="500" type="line"/>
+      <point x="35" y="0" type="line"/>
+      <point x="135" y="0" type="line"/>
+      <point x="135" y="399" type="line"/>
+      <point x="135" y="500" type="line"/>
+    </contour>
+    <contour>
+      <point x="297" y="428" type="line"/>
+      <point x="314" y="508" type="line"/>
+      <point x="289" y="508" type="line"/>
+      <point x="151" y="508"/>
+      <point x="117" y="411"/>
+      <point x="117" y="250" type="curve"/>
+      <point x="135" y="250" type="line"/>
+      <point x="135" y="374"/>
+      <point x="185" y="428"/>
+      <point x="285" y="428" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-01-26 17:03:05 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=n</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=0</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+{
+glyphname = d_d.liga;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (600,0);
+ref = d;
+}
+);
+width = 1200;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (600,0);
+ref = d;
+}
+);
+width = 1200;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (600,0);
+ref = d;
+}
+);
+width = 1200;
+}
+);
+metricLeft = d;
+metricRight = d;
+}

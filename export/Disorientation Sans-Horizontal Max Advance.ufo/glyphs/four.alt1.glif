@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.alt1" format="2">
+  <advance width="646"/>
+  <outline>
+    <contour>
+      <point x="43" y="70" type="line"/>
+      <point x="43" y="-20" type="line"/>
+      <point x="386" y="220" type="line"/>
+      <point x="386" y="-46" type="line"/>
+      <point x="491" y="28" type="line"/>
+      <point x="491" y="294" type="line"/>
+      <point x="603" y="372" type="line"/>
+      <point x="603" y="462" type="line"/>
+      <point x="491" y="384" type="line"/>
+      <point x="491" y="818" type="line"/>
+      <point x="315" y="694" type="line"/>
+    </contour>
+    <contour>
+      <point x="159" y="151" type="line"/>
+      <point x="386" y="668" type="line"/>
+      <point x="386" y="310" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=O</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=O</string>
+    </dict>
+  </lib>
+</glyph>

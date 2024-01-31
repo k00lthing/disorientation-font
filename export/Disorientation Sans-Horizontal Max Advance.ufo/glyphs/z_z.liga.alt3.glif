@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="z_z.liga.alt3" format="2">
+  <advance width="791"/>
+  <outline>
+    <contour>
+      <point x="369" y="678" type="line"/>
+      <point x="10" y="429" type="line"/>
+      <point x="10" y="348" type="line"/>
+      <point x="241" y="509" type="line"/>
+      <point x="10" y="-21" type="line"/>
+      <point x="10" y="-71" type="line"/>
+      <point x="369" y="179" type="line"/>
+      <point x="369" y="259" type="line"/>
+      <point x="138" y="98" type="line"/>
+      <point x="369" y="628" type="line"/>
+    </contour>
+    <contour>
+      <point x="781" y="427" type="line"/>
+      <point x="422" y="679" type="line"/>
+      <point x="422" y="598" type="line"/>
+      <point x="653" y="437" type="line"/>
+      <point x="422" y="229" type="line"/>
+      <point x="422" y="179" type="line"/>
+      <point x="781" y="-72" type="line"/>
+      <point x="781" y="8" type="line"/>
+      <point x="550" y="169" type="line"/>
+      <point x="781" y="377" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-01-25 17:11:46 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>z</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>z</string>
+    </dict>
+  </lib>
+</glyph>

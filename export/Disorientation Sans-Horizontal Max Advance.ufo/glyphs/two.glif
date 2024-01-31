@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="two" format="2">
+  <advance width="599"/>
+  <unicode hex="0032"/>
+  <outline>
+    <contour>
+      <point x="176" y="96" type="line"/>
+      <point x="427" y="75"/>
+      <point x="527" y="137"/>
+      <point x="527" y="285" type="curve" smooth="yes"/>
+      <point x="527" y="431"/>
+      <point x="430" y="537"/>
+      <point x="290" y="635" type="curve" smooth="yes"/>
+      <point x="150" y="733"/>
+      <point x="52" y="715"/>
+      <point x="52" y="560" type="curve"/>
+      <point x="152" y="485" type="line"/>
+      <point x="152" y="595"/>
+      <point x="200" y="608"/>
+      <point x="290" y="545" type="curve" smooth="yes"/>
+      <point x="380" y="482"/>
+      <point x="427" y="410"/>
+      <point x="427" y="350" type="curve" smooth="yes"/>
+      <point x="427" y="246"/>
+      <point x="266" y="188"/>
+      <point x="43" y="190" type="curve"/>
+      <point x="44" y="99" type="line"/>
+      <point x="556" y="-210" type="line"/>
+      <point x="556" y="-120" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=O</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=O</string>
+    </dict>
+  </lib>
+</glyph>

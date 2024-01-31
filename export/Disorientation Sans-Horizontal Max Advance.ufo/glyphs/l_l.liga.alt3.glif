@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l_l.liga.alt3" format="2">
+  <advance width="354"/>
+  <outline>
+    <contour>
+      <point x="42" y="735" type="line"/>
+      <point x="42" y="-65" type="line"/>
+      <point x="142" y="5" type="line"/>
+      <point x="142" y="805" type="line"/>
+    </contour>
+    <contour>
+      <point x="212" y="805" type="line"/>
+      <point x="212" y="5" type="line"/>
+      <point x="312" y="-65" type="line"/>
+      <point x="312" y="735" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-01-25 16:13:06 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>l</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>l</string>
+    </dict>
+  </lib>
+</glyph>

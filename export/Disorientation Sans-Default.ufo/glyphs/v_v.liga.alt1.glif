@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="v_v.liga.alt1" format="2">
+  <advance width="956"/>
+  <outline>
+    <contour>
+      <point x="0" y="500" type="line"/>
+      <point x="190" y="1" type="line"/>
+      <point x="289" y="1" type="line"/>
+      <point x="478" y="499" type="line"/>
+      <point x="378" y="499" type="line"/>
+      <point x="238" y="132" type="line"/>
+      <point x="98" y="500" type="line"/>
+    </contour>
+    <contour>
+      <point x="478" y="500" type="line"/>
+      <point x="668" y="1" type="line"/>
+      <point x="767" y="1" type="line"/>
+      <point x="956" y="499" type="line"/>
+      <point x="856" y="499" type="line"/>
+      <point x="716" y="132" type="line"/>
+      <point x="576" y="500" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-01-25 17:14:47 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>v</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>v</string>
+    </dict>
+  </lib>
+</glyph>

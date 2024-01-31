@@ -1,0 +1,2651 @@
+{
+.appVersion = "3200";
+.formatVersion = 3;
+axes = (
+{
+name = "relative x advance";
+tag = rxad;
+},
+{
+name = "relative y advance";
+tag = ryad;
+}
+);
+classes = (
+{
+code = "g j q y";
+name = descender_on_the_right;
+},
+{
+code = "B D E F H I J K L M N P R T U V W X Y Z ";
+name = uppercase_flat_heights;
+},
+{
+code = "C G O Q S J U ";
+name = uppercase_round_heights;
+},
+{
+code = "b h k l
+";
+name = ascender_on_the_left;
+},
+{
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ";
+name = uppercase_default_all;
+},
+{
+code = "A.init.alt B.init.alt C.init.alt D.init.alt E.init.alt F.init.alt G.init.alt H.init.alt I.init.alt J.init.alt K.init.alt L.init.alt M.init.alt N.init.alt O.init.alt P.init.alt Q.init.alt R.init.alt S.init.alt T.init.alt U.init.alt V.init.alt W.init.alt X.init.alt Y.init.alt Z.init.alt
+";
+name = uppercase_init_alt;
+},
+{
+code = "a b c d e f g h i j k l m n o p q r s t u v w x y z ";
+name = lowercase_default_all;
+},
+{
+code = "a.fina.alt b.fina.alt c.fina.alt d.fina.alt e.fina.alt f.fina.alt g.fina.alt h.fina.alt i.fina.alt j.fina.alt k.fina.alt l.fina.alt m.fina.alt n.fina.alt o.fina.alt p.fina.alt q.fina.alt r.fina.alt s.fina.alt t.fina.alt u.fina.alt v.fina.alt w.fina.alt x.fina.alt y.fina.alt z.fina.alt ";
+name = lowercase_fina_alt;
+}
+);
+date = "2023-03-28 10:57:03 +0000";
+familyName = "Disorientation Sans";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature calt;
+feature init;
+feature fina;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub a a by a_a.liga;
+sub b b by b_b.liga;
+sub b c by b_c.liga;
+sub c c by c_c.liga;
+sub c d by c_d.liga;
+sub d d by d_d.liga;
+sub e d by e_d.liga;
+sub e e by e_e.liga;
+sub f f by f_f.liga;
+sub g g by g_g.liga;
+sub h h by h_h.liga;
+sub i i by i_i.liga;
+sub j j by j_j.liga;
+sub k k by k_k.liga;
+sub l l by l_l.liga;
+sub m m by m_m.liga;
+sub n n by n_n.liga;
+sub n u by n_u.liga;
+sub o o by o_o.liga;
+sub p p by p_p.liga;
+sub q q by q_q.liga;
+sub r r by r_r.liga;
+sub s s by s_s.liga;
+sub t t by t_t.liga;
+sub u n by u_n.liga;
+sub u u by u_u.liga;
+sub v v by v_v.liga;
+sub w w by w_w.liga;
+sub x x by x_x.liga;
+sub y y by y_y.liga;
+sub z z by z_z.liga;
+";
+tag = liga;
+},
+{
+code = "sub @descender_on_the_right a_a.liga' by a_a.liga.alt1;
+sub @uppercase_round_heights a_a.liga' by a_a.liga.alt2;
+
+sub space @uppercase_default_all' by @uppercase_init_alt;
+sub @lowercase_default_all' space by @lowercase_fina_alt;
+";
+tag = calt;
+},
+{
+automatic = 1;
+code = "sub A by A.init;
+sub B by B.init;
+sub C by C.init;
+sub D by D.init;
+sub E by E.init;
+sub F by F.init;
+sub G by G.init;
+sub H by H.init;
+sub I by I.init;
+sub J by J.init;
+sub K by K.init;
+sub L by L.init;
+sub M by M.init;
+sub N by N.init;
+sub O by O.init;
+sub P by P.init;
+sub Q by Q.init;
+sub R by R.init;
+sub S by S.init;
+sub T by T.init;
+sub U by U.init;
+sub V by V.init;
+sub W by W.init;
+sub X by X.init;
+sub Y by Y.init;
+sub Z by Z.init;
+";
+tag = init;
+},
+{
+automatic = 1;
+code = "sub a by a.fina;
+sub b by b.fina;
+sub c by c.fina;
+sub d by d.fina;
+sub e by e.fina;
+sub f by f.fina;
+sub g by g.fina;
+sub h by h.fina;
+sub i by i.fina;
+sub j by j.fina;
+sub k by k.fina;
+sub l by l.fina;
+sub m by m.fina;
+sub n by n.fina;
+sub o by o.fina;
+sub p by p.fina;
+sub q by q.fina;
+sub r by r.fina;
+sub s by s.fina;
+sub t by t.fina;
+sub u by u.fina;
+sub v by v.fina;
+sub w by w.fina;
+sub x by x.fina;
+sub y by y.fina;
+sub z by z.fina;
+";
+tag = fina;
+}
+);
+fontMaster = (
+{
+axesValues = (
+0,
+0
+);
+customParameters = (
+{
+name = paramArea;
+value = 400;
+},
+{
+name = paramDepth;
+value = 10;
+}
+);
+iconName = SemiBold;
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+}
+);
+name = Default;
+stemValues = (
+100
+);
+},
+{
+axesValues = (
+100,
+0
+);
+customParameters = (
+{
+name = paramArea;
+value = 300;
+},
+{
+name = paramDepth;
+value = 10;
+}
+);
+guides = (
+{
+pos = (495,-172);
+},
+{
+locked = 1;
+pos = (48,508);
+}
+);
+iconName = SemiBold_SemiExtended;
+id = m002;
+metricValues = (
+{
+over = 16;
+pos = 900;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -300;
+}
+);
+name = "Horizontal Max Advance";
+stemValues = (
+100
+);
+},
+{
+axesValues = (
+0,
+100
+);
+customParameters = (
+{
+name = paramArea;
+value = 400;
+},
+{
+name = paramDepth;
+value = 10;
+}
+);
+guides = (
+{
+locked = 1;
+pos = (486,-208);
+},
+{
+locked = 1;
+pos = (-318,809);
+}
+);
+iconName = SemiBold_Condensed;
+id = m003;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+}
+);
+name = "Vertical Max Advance";
+stemValues = (
+100
+);
+}
+);
+instances = (
+{
+axesValues = (
+0,
+0
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = "No Advance";
+},
+{
+axesValues = (
+100,
+0
+);
+instanceInterpolations = {
+m002 = 1;
+};
+name = "Horizontal Max Advance";
+},
+{
+axesValues = (
+0,
+100
+);
+instanceInterpolations = {
+m003 = 1;
+};
+name = "Vertical Max Advance";
+}
+);
+kerningLTR = {
+m01 = {
+"@MMK_L_A" = {
+"@MMK_R_A" = -10;
+"@MMK_R_H" = -20;
+"@MMK_R_J" = -120;
+"@MMK_R_O" = -50;
+"@MMK_R_T" = -100;
+"@MMK_R_U" = -20;
+"@MMK_R_V" = -120;
+"@MMK_R_Y" = -100;
+"@MMK_R_t" = -80;
+"@MMK_R_v" = -40;
+"@MMK_R_y" = -60;
+};
+"@MMK_L_B" = {
+"@MMK_R_A" = -30;
+};
+"@MMK_L_D" = {
+"@MMK_R_A" = -19;
+};
+"@MMK_L_F" = {
+"@MMK_R_A" = -140;
+};
+"@MMK_L_H" = {
+"@MMK_R_A" = -20;
+};
+"@MMK_L_I" = {
+"@MMK_R_A" = -20;
+};
+"@MMK_L_K" = {
+"@MMK_R_A" = -30;
+};
+"@MMK_L_L" = {
+"@MMK_R_o" = -30;
+"@MMK_R_y" = -70;
+};
+"@MMK_L_O" = {
+"@MMK_R_A" = -50;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -120;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -100;
+};
+"@MMK_L_U" = {
+"@MMK_R_A" = -17;
+};
+"@MMK_L_V" = {
+"@MMK_R_A" = -120;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -100;
+};
+"@MMK_L_f" = {
+"@MMK_R_A" = -60;
+"@MMK_R_o" = -30;
+};
+"@MMK_L_g" = {
+"@MMK_R_s" = 10;
+};
+"@MMK_L_l" = {
+"@MMK_R_u" = 20;
+};
+"@MMK_L_n" = {
+"@MMK_R_v" = -10;
+};
+"@MMK_L_o" = {
+"@MMK_R_l" = 10;
+"@MMK_R_n" = 10;
+"@MMK_R_s" = 20;
+"@MMK_R_v" = -20;
+};
+"@MMK_L_r" = {
+"@MMK_R_A" = -70;
+"@MMK_R_a" = -20;
+"@MMK_R_o" = -20;
+"@MMK_R_v" = 20;
+};
+"@MMK_L_s" = {
+"@MMK_R_l" = 10;
+"@MMK_R_y" = 0;
+};
+"@MMK_L_u" = {
+"@MMK_R_v" = -20;
+};
+"@MMK_L_v" = {
+"@MMK_R_A" = -60;
+"@MMK_R_a" = -20;
+"@MMK_R_g" = -30;
+"@MMK_R_o" = -20;
+};
+A = {
+B = -20;
+};
+};
+m002 = {
+"@MMK_L_A" = {
+"@MMK_R_y" = -50;
+one = -60;
+seven = -60;
+seven.alt1 = -40;
+};
+"@MMK_L_D" = {
+"@MMK_R_y" = 20;
+};
+"@MMK_L_F" = {
+"@MMK_R_a" = -100;
+"@MMK_R_n" = -80;
+"@MMK_R_o" = -100;
+e_d.liga = -80;
+};
+"@MMK_L_L" = {
+"@MMK_R_o" = -30;
+"@MMK_R_y" = -70;
+};
+"@MMK_L_O" = {
+"@MMK_R_o" = -20;
+};
+"@MMK_L_P" = {
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -120;
+"@MMK_R_u" = -100;
+};
+"@MMK_L_T" = {
+"@MMK_R_a" = -100;
+};
+"@MMK_L_V" = {
+"@MMK_R_o" = -100;
+};
+"@MMK_L_Y" = {
+"@MMK_R_a" = -100;
+};
+"@MMK_L_f" = {
+"@MMK_R_g" = 0;
+"@MMK_R_o" = -30;
+};
+"@MMK_L_g" = {
+"@MMK_R_s" = 10;
+};
+"@MMK_L_n" = {
+"@MMK_R_v" = -10;
+};
+"@MMK_L_o" = {
+"@MMK_R_n" = 10;
+"@MMK_R_s" = -10;
+"@MMK_R_v" = -20;
+seven = -40;
+};
+"@MMK_L_r" = {
+"@MMK_R_a" = -20;
+"@MMK_R_o" = -20;
+"@MMK_R_v" = 20;
+};
+"@MMK_L_s" = {
+"@MMK_R_l" = 10;
+"@MMK_R_t" = -60;
+"@MMK_R_y" = 0;
+};
+"@MMK_L_u" = {
+"@MMK_R_v" = -20;
+};
+"@MMK_L_v" = {
+"@MMK_R_a" = -20;
+"@MMK_R_g" = -30;
+"@MMK_R_o" = -20;
+};
+A = {
+B = 0;
+};
+};
+m003 = {
+"@MMK_L_A" = {
+"@MMK_R_H" = 0;
+"@MMK_R_J" = -110;
+"@MMK_R_T" = -90;
+"@MMK_R_U" = -50;
+"@MMK_R_V" = -100;
+"@MMK_R_Y" = -140;
+"@MMK_R_t" = -40;
+};
+"@MMK_L_B" = {
+"@MMK_R_A" = 40;
+};
+"@MMK_L_E" = {
+"@MMK_R_A" = -30;
+};
+"@MMK_L_F" = {
+"@MMK_R_A" = -80;
+};
+"@MMK_L_H" = {
+"@MMK_R_A" = 0;
+};
+"@MMK_L_L" = {
+"@MMK_R_A" = -80;
+"@MMK_R_o" = -30;
+"@MMK_R_y" = -70;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -80;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -90;
+"@MMK_R_o" = -120;
+u_n.liga = -120;
+};
+"@MMK_L_U" = {
+"@MMK_R_A" = -50;
+};
+"@MMK_L_V" = {
+"@MMK_R_A" = -110;
+"@MMK_R_o" = -80;
+"@MMK_R_u" = -60;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -140;
+"@MMK_R_o" = -120;
+i_i.liga = -160;
+u_n.liga = -120;
+};
+"@MMK_L_Z" = {
+i_i.liga = -30;
+};
+"@MMK_L_f" = {
+"@MMK_R_A" = -60;
+"@MMK_R_o" = -30;
+};
+"@MMK_L_g" = {
+"@MMK_R_s" = 10;
+};
+"@MMK_L_n" = {
+"@MMK_R_v" = -10;
+};
+"@MMK_L_o" = {
+"@MMK_R_n" = 10;
+"@MMK_R_s" = 20;
+"@MMK_R_v" = -20;
+};
+"@MMK_L_r" = {
+"@MMK_R_A" = -60;
+"@MMK_R_a" = -20;
+"@MMK_R_o" = -20;
+"@MMK_R_v" = 20;
+};
+"@MMK_L_s" = {
+"@MMK_R_l" = 10;
+"@MMK_R_y" = 0;
+};
+"@MMK_L_u" = {
+"@MMK_R_v" = -20;
+};
+"@MMK_L_v" = {
+"@MMK_R_a" = -20;
+"@MMK_R_g" = -30;
+"@MMK_R_o" = -20;
+};
+A = {
+B = 0;
+};
+c_c.liga = {
+e_d.liga = -80;
+};
+x_x.liga.alt3 = {
+y_y.liga.alt3 = -30;
+};
+y_y.liga = {
+"@MMK_R_n" = -40;
+};
+y_y.liga.alt3 = {
+z_z.liga.alt3 = -30;
+};
+};
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+stems = (
+{
+name = Vertical;
+}
+);
+unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+m01 = {
+HH = "90";
+HV = "105";
+OH = "100";
+OV = "105";
+nV = "100";
+nd = "80";
+oH = "80";
+oV = "100";
+tH = "80";
+};
+};
+backdropGlyphLib = {
+AE = (
+(
+A,
+1,
+0
+),
+(
+E,
+1,
+0
+),
+(
+OE,
+1,
+0
+)
+);
+B = (
+(
+D,
+1,
+0
+),
+(
+E,
+1,
+0
+),
+(
+H,
+0,
+0
+),
+(
+P,
+1,
+0
+),
+(
+R,
+0,
+0
+),
+(
+Germandbls,
+0,
+0
+),
+(
+germandbls,
+0,
+0
+),
+(
+three,
+0,
+0
+),
+(
+eight,
+0,
+0
+)
+);
+C = (
+(
+D,
+0,
+0
+),
+(
+G,
+1,
+0
+),
+(
+O,
+1,
+0
+),
+(
+Q,
+0,
+0
+)
+);
+D = (
+(
+B,
+0,
+0
+),
+(
+C,
+0,
+0
+),
+(
+E,
+0,
+0
+),
+(
+G,
+0,
+0
+),
+(
+O,
+1,
+0
+),
+(
+Q,
+0,
+0
+)
+);
+E = (
+(
+B,
+1,
+0
+),
+(
+D,
+0,
+0
+),
+(
+F,
+1,
+0
+),
+(
+H,
+0,
+0
+)
+);
+Eng = (
+(
+N,
+1,
+0
+),
+(
+j,
+1,
+0
+)
+);
+F = (
+(
+E,
+1,
+0
+),
+(
+H,
+0,
+0
+)
+);
+G = (
+(
+A,
+0,
+0
+),
+(
+C,
+0,
+0
+),
+(
+D,
+0,
+0
+),
+(
+H,
+0,
+0
+),
+(
+O,
+1,
+0
+),
+(
+Q,
+0,
+0
+),
+(
+x,
+0,
+0
+)
+);
+Germandbls = (
+(
+B,
+1,
+0
+),
+(
+S,
+1,
+0
+),
+(
+T,
+0,
+0
+),
+(
+germandbls,
+0,
+0
+)
+);
+H = (
+(
+B,
+0,
+0
+),
+(
+D,
+0,
+0
+),
+(
+E,
+0,
+0
+),
+(
+F,
+0,
+0
+),
+(
+I,
+0,
+0
+),
+(
+J,
+0,
+0
+),
+(
+K,
+0,
+0
+),
+(
+L,
+0,
+0
+),
+(
+M,
+0,
+0
+),
+(
+N,
+1,
+0
+),
+(
+P,
+0,
+0
+),
+(
+R,
+0,
+0
+),
+(
+U,
+1,
+0
+)
+);
+I = (
+(
+B,
+0,
+0
+),
+(
+D,
+0,
+0
+),
+(
+E,
+0,
+0
+),
+(
+F,
+0,
+0
+),
+(
+H,
+0,
+0
+),
+(
+J,
+0,
+0
+),
+(
+K,
+0,
+0
+),
+(
+L,
+0,
+0
+),
+(
+M,
+0,
+0
+),
+(
+N,
+0,
+0
+),
+(
+P,
+0,
+0
+),
+(
+R,
+0,
+0
+),
+(
+T,
+1,
+0
+),
+(
+U,
+0,
+0
+),
+(
+Y,
+1,
+0
+),
+(
+i,
+0,
+0
+),
+(
+l,
+1,
+0
+),
+(
+one,
+1,
+0
+)
+);
+IJ = (
+(
+I,
+0,
+0
+),
+(
+J,
+1,
+0
+),
+(
+U,
+1,
+0
+)
+);
+J = (
+(
+I,
+1,
+0
+),
+(
+U,
+0,
+0
+)
+);
+K = (
+(
+B,
+0,
+0
+),
+(
+H,
+0,
+0
+),
+(
+I,
+1,
+0
+),
+(
+R,
+0,
+0
+),
+(
+X,
+0,
+0
+),
+(
+Y,
+0,
+0
+)
+);
+L = (
+(
+E,
+0,
+0
+),
+(
+H,
+0,
+0
+),
+(
+I,
+1,
+0
+)
+);
+M = (
+(
+H,
+1,
+0
+),
+(
+I,
+0,
+0
+),
+(
+O,
+0,
+0
+),
+(
+N,
+0,
+0
+),
+(
+V,
+0,
+0
+),
+(
+W,
+0,
+0
+)
+);
+N = (
+(
+H,
+1,
+0
+),
+(
+I,
+0,
+0
+),
+(
+M,
+0,
+0
+),
+(
+U,
+0,
+0
+)
+);
+O = (
+(
+C,
+1,
+0
+),
+(
+D,
+0,
+0
+),
+(
+G,
+1,
+0
+),
+(
+Q,
+1,
+0
+),
+(
+zero,
+1,
+0
+)
+);
+OE = (
+(
+E,
+1,
+0
+),
+(
+O,
+1,
+0
+),
+(
+OE,
+1,
+0
+)
+);
+Oslash = (
+(
+O,
+1,
+0
+),
+(
+Q,
+0,
+0
+)
+);
+P = (
+(
+B,
+1,
+0
+),
+(
+F,
+1,
+0
+),
+(
+R,
+1,
+0
+)
+);
+Q = (
+(
+C,
+0,
+0
+),
+(
+D,
+0,
+0
+),
+(
+G,
+0,
+0
+),
+(
+O,
+1,
+0
+),
+(
+R,
+0,
+0
+)
+);
+R = (
+(
+B,
+0,
+0
+),
+(
+F,
+0,
+0
+),
+(
+P,
+1,
+0
+),
+(
+Q,
+0,
+0
+),
+(
+X,
+0,
+0
+)
+);
+T = (
+(
+H,
+0,
+0
+),
+(
+I,
+1,
+0
+),
+(
+Y,
+1,
+0
+)
+);
+Thorn = (
+(
+D,
+0,
+0
+),
+(
+H,
+0,
+0
+),
+(
+I,
+0,
+0
+),
+(
+P,
+1,
+0
+)
+);
+U = (
+(
+H,
+0,
+0
+),
+(
+N,
+1,
+0
+),
+(
+O,
+0,
+0
+),
+(
+V,
+0,
+0
+)
+);
+V = (
+(
+U,
+0,
+0
+),
+(
+W,
+0,
+0
+),
+(
+X,
+0,
+0
+),
+(
+Y,
+0,
+0
+),
+(
+H,
+1,
+0
+)
+);
+W = (
+(
+M,
+0,
+0
+),
+(
+V,
+0,
+0
+)
+);
+X = (
+(
+K,
+0,
+0
+),
+(
+N,
+0,
+0
+),
+(
+R,
+0,
+0
+),
+(
+V,
+0,
+0
+),
+(
+Y,
+1,
+0
+),
+(
+Z,
+1,
+0
+)
+);
+Y = (
+(
+I,
+0,
+0
+),
+(
+T,
+1,
+0
+),
+(
+U,
+0,
+0
+),
+(
+V,
+1,
+0
+),
+(
+W,
+0,
+0
+),
+(
+X,
+0,
+0
+)
+);
+Z = (
+(
+L,
+0,
+0
+),
+(
+T,
+0,
+0
+),
+(
+X,
+0,
+0
+)
+);
+ae = (
+(
+a,
+1,
+0
+),
+(
+e,
+1,
+0
+),
+(
+o,
+0,
+0
+),
+(
+oe,
+1,
+0
+)
+);
+ampersand = (
+(
+E,
+0,
+0
+),
+(
+t,
+0,
+0
+)
+);
+at = (
+(
+a,
+1,
+0
+)
+);
+b = (
+(
+c,
+0,
+0
+),
+(
+e,
+0,
+0
+),
+(
+h,
+1,
+0
+),
+(
+k,
+0,
+0
+),
+(
+l,
+0,
+0
+),
+(
+o,
+1,
+0
+),
+(
+p,
+1,
+0
+)
+);
+c = (
+(
+b,
+0,
+0
+),
+(
+d,
+0,
+0
+),
+(
+e,
+1,
+0
+),
+(
+g,
+0,
+0
+),
+(
+o,
+1,
+0
+),
+(
+p,
+0,
+0
+),
+(
+q,
+0,
+0
+)
+);
+cent = (
+(
+c,
+1,
+0
+)
+);
+d = (
+(
+c,
+0,
+0
+),
+(
+eth,
+0,
+0
+),
+(
+e,
+0,
+0
+),
+(
+l,
+0,
+0
+),
+(
+o,
+1,
+0
+),
+(
+q,
+1,
+0
+)
+);
+dollar = (
+(
+S,
+1,
+0
+)
+);
+e = (
+(
+b,
+0,
+0
+),
+(
+c,
+1,
+0
+),
+(
+d,
+0,
+0
+),
+(
+g,
+0,
+0
+),
+(
+o,
+1,
+0
+),
+(
+p,
+0,
+0
+),
+(
+q,
+0,
+0
+)
+);
+eight = (
+(
+B,
+0,
+0
+),
+(
+zero,
+1,
+0
+),
+(
+three,
+1,
+0
+),
+(
+six,
+0,
+0
+),
+(
+nine,
+0,
+0
+)
+);
+eng = (
+(
+j,
+1,
+0
+),
+(
+m,
+0,
+0
+),
+(
+n,
+1,
+0
+)
+);
+estimated = (
+(
+e,
+0,
+0
+)
+);
+eth = (
+(
+d,
+1,
+0
+),
+(
+o,
+1,
+0
+)
+);
+euro = (
+(
+C,
+1,
+0
+)
+);
+exclam = (
+(
+I,
+1,
+0
+),
+(
+T,
+0,
+0
+),
+(
+one,
+0,
+0
+),
+(
+period,
+1,
+0
+),
+(
+question,
+1,
+0
+)
+);
+f = (
+(
+l,
+0,
+0
+),
+(
+longs,
+0,
+0
+),
+(
+germandbls,
+0,
+0
+),
+(
+t,
+1,
+0
+)
+);
+five = (
+(
+six,
+1,
+0
+)
+);
+florin = (
+(
+f,
+1,
+0
+)
+);
+franc = (
+(
+F,
+1,
+0
+)
+);
+g = (
+(
+c,
+0,
+0
+),
+(
+e,
+0,
+0
+),
+(
+o,
+1,
+0
+),
+(
+q,
+0,
+0
+)
+);
+germandbls = (
+(
+B,
+1,
+0
+),
+(
+b,
+0,
+0
+),
+(
+f,
+1,
+0
+),
+(
+s,
+1,
+0
+),
+(
+longs,
+1,
+0
+)
+);
+h = (
+(
+b,
+1,
+0
+),
+(
+k,
+0,
+0
+),
+(
+l,
+0,
+0
+),
+(
+m,
+0,
+0
+),
+(
+n,
+1,
+0
+),
+(
+r,
+0,
+0
+)
+);
+i = (
+(
+I,
+0,
+0
+),
+(
+j,
+1,
+0
+),
+(
+l,
+1,
+0
+),
+(
+n,
+0,
+0
+)
+);
+idotless = (
+(
+I,
+0,
+0
+),
+(
+i,
+0,
+0
+),
+(
+j,
+0,
+0
+),
+(
+uni0237,
+0,
+0
+),
+(
+l,
+1,
+0
+),
+(
+n,
+0,
+0
+)
+);
+j = (
+(
+i,
+1,
+0
+),
+(
+l,
+0,
+0
+),
+(
+n,
+0,
+0
+)
+);
+k = (
+(
+b,
+1,
+0
+),
+(
+h,
+0,
+0
+),
+(
+l,
+0,
+0
+),
+(
+x,
+1,
+0
+)
+);
+l = (
+(
+I,
+1,
+0
+),
+(
+b,
+0,
+0
+),
+(
+h,
+0,
+0
+),
+(
+k,
+0,
+0
+),
+(
+i,
+0,
+0
+),
+(
+one,
+1,
+0
+)
+);
+longs = (
+(
+f,
+1,
+0
+),
+(
+l,
+0,
+0
+),
+(
+germandbls,
+0,
+0
+)
+);
+m = (
+(
+h,
+0,
+0
+),
+(
+n,
+1,
+0
+),
+(
+r,
+0,
+0
+),
+(
+w,
+0,
+0
+)
+);
+mu = (
+(
+u,
+1,
+0
+)
+);
+n = (
+(
+h,
+0,
+0
+),
+(
+m,
+0,
+0
+),
+(
+r,
+0,
+0
+),
+(
+u,
+1,
+0
+),
+(
+v,
+0,
+0
+)
+);
+nine = (
+(
+zero,
+1,
+0
+),
+(
+six,
+1,
+0
+),
+(
+eight,
+1,
+0
+)
+);
+o = (
+(
+b,
+0,
+0
+),
+(
+c,
+1,
+0
+),
+(
+d,
+0,
+0
+),
+(
+eth,
+0,
+0
+),
+(
+e,
+1,
+0
+),
+(
+g,
+0,
+0
+),
+(
+p,
+0,
+0
+),
+(
+q,
+0,
+0
+)
+);
+oe = (
+(
+ae,
+1,
+0
+),
+(
+e,
+1,
+0
+),
+(
+o,
+1,
+0
+)
+);
+one = (
+(
+I,
+1,
+0
+),
+(
+l,
+1,
+0
+)
+);
+oslash = (
+(
+o,
+1,
+0
+)
+);
+p = (
+(
+b,
+1,
+0
+),
+(
+c,
+0,
+0
+),
+(
+e,
+0,
+0
+),
+(
+n,
+0,
+0
+),
+(
+o,
+1,
+0
+)
+);
+product = (
+(
+H,
+1,
+0
+)
+);
+q = (
+(
+d,
+1,
+0
+),
+(
+c,
+0,
+0
+),
+(
+e,
+0,
+0
+),
+(
+g,
+0,
+0
+),
+(
+o,
+1,
+0
+)
+);
+question = (
+(
+two,
+1,
+0
+),
+(
+period,
+1,
+0
+),
+(
+exclam,
+1,
+0
+)
+);
+r = (
+(
+h,
+0,
+0
+),
+(
+m,
+0,
+0
+),
+(
+n,
+1,
+0
+)
+);
+seven = (
+(
+T,
+0,
+0
+)
+);
+six = (
+(
+zero,
+1,
+0
+),
+(
+five,
+1,
+0
+),
+(
+eight,
+1,
+0
+),
+(
+nine,
+0,
+0
+)
+);
+t = (
+(
+f,
+1,
+0
+),
+(
+l,
+0,
+0
+)
+);
+thorn = (
+(
+b,
+1,
+0
+),
+(
+h,
+1,
+0
+),
+(
+p,
+1,
+0
+)
+);
+three = (
+(
+B,
+0,
+0
+),
+(
+eight,
+1,
+0
+)
+);
+two = (
+(
+question,
+1,
+0
+)
+);
+u = (
+(
+n,
+1,
+0
+),
+(
+v,
+0,
+0
+)
+);
+uni0237 = (
+(
+i,
+0,
+0
+),
+(
+idotless,
+1,
+0
+),
+(
+l,
+0,
+0
+),
+(
+n,
+0,
+0
+)
+);
+uni20B9 = (
+(
+R,
+1,
+0
+)
+);
+uni20BD = (
+(
+P,
+1,
+0
+)
+);
+uni20BF = (
+(
+B,
+1,
+0
+)
+);
+v = (
+(
+n,
+0,
+0
+),
+(
+w,
+0,
+0
+),
+(
+x,
+0,
+0
+),
+(
+y,
+1,
+0
+)
+);
+w = (
+(
+v,
+0,
+0
+),
+(
+m,
+0,
+0
+)
+);
+x = (
+(
+k,
+1,
+0
+),
+(
+v,
+0,
+0
+),
+(
+z,
+0,
+0
+)
+);
+y = (
+(
+v,
+1,
+0
+)
+);
+yen = (
+(
+Y,
+1,
+0
+)
+);
+z = (
+(
+x,
+0,
+0
+)
+);
+zero = (
+(
+O,
+1,
+0
+)
+);
+};
+com.eweracs.HTLSManager.fontRules = {
+Letter = {
+};
+Mark = {
+};
+Number = {
+};
+Punctuation = {
+};
+Symbol = {
+};
+};
+"com.hugojourdan.ColorFlow-Report_Data" = {
+m01 = {
+A = None;
+B = None;
+C = None;
+D = None;
+E = None;
+F = None;
+G = None;
+H = None;
+I = None;
+J = None;
+K = None;
+L = None;
+M = None;
+N = None;
+O = None;
+P = None;
+Q = None;
+R = None;
+S = None;
+T = None;
+U = None;
+V = None;
+W = None;
+X = None;
+Y = None;
+Z = None;
+a = None;
+b = None;
+c = None;
+d = None;
+e = None;
+f = None;
+g = None;
+h = None;
+i = None;
+j = None;
+k = None;
+l = None;
+m = None;
+n = None;
+o = None;
+p = None;
+q = None;
+r = None;
+s = None;
+space = None;
+t = None;
+u = None;
+v = None;
+w = None;
+x = None;
+y = None;
+z = None;
+};
+};
+"com.hugojourdan.ColorFlow-currentFont" = "<null>";
+"com.hugojourdan.ColorFlow-export" = "<null>";
+"com.hugojourdan.ColorFlow-master-data" = {
+m01 = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+"com.hugojourdan.ColorFlow-selectedLayer" = 1;
+"com.hugojourdan.ColorFlow-selectedLayer-data" = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+"com.hugojourdan.ColorFlow-selectedMaster" = {
+iconName = SemiBold;
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 700;
+},
+{
+over = 16;
+pos = 500;
+},
+{
+over = -16;
+pos = 0;
+},
+{
+over = -16;
+pos = -200;
+}
+);
+name = Medium;
+stems = (
+{
+id = "BB10C48B-E9E4-440E-9DDE-E66EEE27D47B";
+width = 100;
+}
+);
+};
+};
+versionMajor = 1;
+versionMinor = 0;
+}

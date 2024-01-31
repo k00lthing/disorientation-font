@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.alt1" format="2">
+  <advance width="345"/>
+  <outline>
+    <contour>
+      <point x="225" y="800" type="line"/>
+      <point x="225" y="700"/>
+      <point x="200" y="675"/>
+      <point x="30" y="675" type="curve"/>
+      <point x="30" y="595" type="line"/>
+      <point x="215" y="595" type="line"/>
+      <point x="215" y="100" type="line"/>
+      <point x="315" y="100" type="line"/>
+      <point x="315" y="800" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=O</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=O</string>
+    </dict>
+  </lib>
+</glyph>
