@@ -308,11 +308,13 @@ value = 10;
 guides = (
 {
 locked = 1;
+name = "max pull down ";
 pos = (486,-208);
 },
 {
 locked = 1;
-pos = (-318,809);
+name = "max pull up";
+pos = (-318,808);
 }
 );
 iconName = SemiBold_Condensed;
