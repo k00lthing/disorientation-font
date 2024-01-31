@@ -79,7 +79,7 @@ nodes = (
 );
 }
 );
-width = 1015;
+width = 1060;
 },
 {
 layerId = m002;
