@@ -288,11 +288,25 @@ value = 10;
 );
 guides = (
 {
-pos = (495,-300);
+locked = 1;
+pos = (-1361,-219);
 },
 {
 locked = 1;
-pos = (48,508);
+pos = (-291,500);
+},
+{
+locked = 1;
+pos = (-153,-167);
+},
+{
+locked = 1;
+name = "slanted axcender max ";
+pos = (-75,855);
+},
+{
+locked = 1;
+pos = (-276,333);
 }
 );
 iconName = SemiBold_SemiExtended;
@@ -315,13 +329,14 @@ over = -16;
 },
 {
 over = -16;
-pos = -300;
+pos = -360;
 }
 );
 name = "Horizontal Max Advance";
 stemValues = (
 100
 );
+visible = 1;
 },
 {
 axesValues = (
