@@ -236,11 +236,15 @@ axesValues = (
 customParameters = (
 {
 name = paramArea;
-value = 400;
+value = 230;
 },
 {
 name = paramDepth;
-value = 10;
+value = 5;
+},
+{
+name = paramOver;
+value = "5";
 }
 );
 iconName = SemiBold;
@@ -279,11 +283,15 @@ axesValues = (
 customParameters = (
 {
 name = paramArea;
-value = 300;
+value = 230;
 },
 {
 name = paramDepth;
-value = 10;
+value = 5;
+},
+{
+name = paramOver;
+value = "10";
 }
 );
 guides = (
@@ -350,7 +358,11 @@ value = 400;
 },
 {
 name = paramDepth;
-value = 10;
+value = 5;
+},
+{
+name = paramOver;
+value = "10";
 }
 );
 guides = (
@@ -518,6 +530,7 @@ m01 = {
 "@MMK_R_a" = -20;
 "@MMK_R_g" = -30;
 "@MMK_R_o" = -20;
+"@MMK_R_y" = -30;
 };
 A = {
 B = -20;
@@ -547,8 +560,9 @@ e_d.liga = -80;
 "@MMK_R_o" = -20;
 };
 "@MMK_L_P" = {
+"@MMK_R_H" = -80;
 "@MMK_R_n" = -20;
-"@MMK_R_o" = -120;
+"@MMK_R_o" = -80;
 "@MMK_R_u" = -100;
 };
 "@MMK_L_T" = {
@@ -559,6 +573,8 @@ e_d.liga = -80;
 };
 "@MMK_L_Y" = {
 "@MMK_R_a" = -100;
+"@MMK_R_o" = -100;
+a_t.liga = -80;
 };
 "@MMK_L_f" = {
 "@MMK_R_g" = 0;
@@ -596,6 +612,9 @@ seven = -40;
 };
 A = {
 B = 0;
+};
+P.init.alt = {
+"@MMK_R_a" = 0;
 };
 };
 m003 = {
@@ -2582,10 +2601,59 @@ O,
 };
 com.eweracs.HTLSManager.fontRules = {
 Letter = {
+9970dc7d2bc54366b80ae8a0d86cda8a = {
+case = 0;
+filter = "";
+referenceGlyph = "";
+subcategory = Any;
+value = 1;
+};
+9c5fc6c048e9439db7c625122ae14d92 = {
+case = 3;
+filter = "";
+referenceGlyph = h.sc;
+subcategory = Any;
+value = 1.2;
+};
+a54350d18f2f486d9bcdc3870fe31a91 = {
+case = 1;
+filter = "";
+referenceGlyph = H;
+subcategory = Any;
+value = 1.25;
+};
+ea3b7116ff6d4711ae84e9e018bdb15b = {
+case = 2;
+filter = "";
+referenceGlyph = x;
+subcategory = Any;
+value = 1;
+};
 };
 Mark = {
 };
 Number = {
+26489fe8692c4603855deef47795222a = {
+case = 1;
+filter = "";
+referenceGlyph = H;
+subcategory = "Decimal Digit";
+value = 1.25;
+};
+73a7edf565a549ed81012a2811bd5446 = {
+case = 2;
+filter = "";
+referenceGlyph = x;
+subcategory = "Decimal Digit";
+value = 1.25;
+};
+e419213caf6b4a88bd7ed1f1b4417e9b = {
+case = 4;
+filter = .dnom;
+referenceGlyph = one.dnom;
+subcategory = "Decimal Digit";
+value = 0.8;
+};
 };
 Punctuation = {
 };
