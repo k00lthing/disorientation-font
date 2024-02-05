@@ -1,7 +1,7 @@
 {
 glyphname = i;
-kernLeft = n;
-kernRight = n;
+kernLeft = l;
+kernRight = l;
 layers = (
 {
 layerId = m01;

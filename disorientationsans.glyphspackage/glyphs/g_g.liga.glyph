@@ -1,5 +1,7 @@
 {
 glyphname = g_g.liga;
+kernLeft = g;
+kernRight = g;
 layers = (
 {
 layerId = m01;

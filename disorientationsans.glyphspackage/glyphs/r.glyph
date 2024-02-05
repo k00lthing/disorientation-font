@@ -48,7 +48,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 325;
+width = 345;
 },
 {
 associatedMasterId = m01;
@@ -284,6 +284,5 @@ width = 315;
 }
 );
 metricLeft = "=n";
-metricRight = "=0";
 unicode = 114;
 }

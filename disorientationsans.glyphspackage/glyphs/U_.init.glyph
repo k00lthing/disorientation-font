@@ -1,7 +1,7 @@
 {
 glyphname = U.init;
-kernLeft = U;
-kernRight = U;
+kernLeft = H;
+kernRight = H;
 layers = (
 {
 layerId = m01;

@@ -1,5 +1,7 @@
 {
 glyphname = r_r.liga.alt1;
+kernLeft = n;
+kernRight = r;
 layers = (
 {
 layerId = m01;
@@ -55,7 +57,7 @@ nodes = (
 );
 }
 );
-width = 634;
+width = 654;
 },
 {
 layerId = m002;

@@ -1,5 +1,7 @@
 {
 glyphname = i_t.liga.alt3;
+kernLeft = l;
+kernRight = t;
 layers = (
 {
 layerId = m01;

@@ -274,6 +274,37 @@ name = Default;
 stemValues = (
 100
 );
+userData = {
+KernOnModels = (
+"n n",
+"v n",
+"n o",
+"o n",
+"n a",
+"i n",
+"n u",
+"l n",
+"r n",
+"l H",
+"H o",
+"H n",
+"H s",
+"H x",
+"H H",
+"H O",
+"H T",
+"H V",
+"E H",
+"one zero",
+"one one",
+"one two",
+"one three",
+"one four",
+"one n",
+"one H",
+"d period"
+);
+};
 },
 {
 axesValues = (
@@ -344,6 +375,37 @@ name = "Horizontal Max Advance";
 stemValues = (
 100
 );
+userData = {
+KernOnModels = (
+"n n",
+"v n",
+"n o",
+"o n",
+"n a",
+"i n",
+"n u",
+"l n",
+"r n",
+"l H",
+"H o",
+"H n",
+"H s",
+"H x",
+"H H",
+"H O",
+"H T",
+"H V",
+"E H",
+"one zero",
+"one one",
+"one two",
+"one three",
+"one four",
+"one n",
+"one H",
+"d period"
+);
+};
 visible = 1;
 },
 {
@@ -404,6 +466,37 @@ name = "Vertical Max Advance";
 stemValues = (
 100
 );
+userData = {
+KernOnModels = (
+"n n",
+"v n",
+"n o",
+"o n",
+"n a",
+"i n",
+"n u",
+"l n",
+"r n",
+"l H",
+"H o",
+"H n",
+"H s",
+"H x",
+"H H",
+"H O",
+"H T",
+"H V",
+"E H",
+"one zero",
+"one one",
+"one two",
+"one three",
+"one four",
+"one n",
+"one H",
+"d period"
+);
+};
 }
 );
 instances = (
@@ -440,14 +533,20 @@ name = "Vertical Max Advance";
 );
 kerningLTR = {
 m01 = {
+"@MMK_L_0" = {
+"@MMK_R_V" = -20;
+};
+"@MMK_L_1" = {
+"@MMK_R_V" = 40;
+};
 "@MMK_L_A" = {
-"@MMK_R_A" = -10;
+"@MMK_R_A" = 0;
 "@MMK_R_H" = -20;
 "@MMK_R_J" = -120;
 "@MMK_R_O" = -50;
 "@MMK_R_T" = -100;
 "@MMK_R_U" = -20;
-"@MMK_R_V" = -120;
+"@MMK_R_V" = -130;
 "@MMK_R_Y" = -100;
 "@MMK_R_t" = -80;
 "@MMK_R_v" = -40;
@@ -461,12 +560,14 @@ m01 = {
 };
 "@MMK_L_F" = {
 "@MMK_R_A" = -140;
+"@MMK_R_v" = -20;
 };
 "@MMK_L_H" = {
 "@MMK_R_A" = -20;
 };
 "@MMK_L_I" = {
 "@MMK_R_A" = -20;
+"@MMK_R_V" = 0;
 };
 "@MMK_L_K" = {
 "@MMK_R_A" = -30;
@@ -483,12 +584,18 @@ m01 = {
 };
 "@MMK_L_T" = {
 "@MMK_R_A" = -100;
+"@MMK_R_a" = 0;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -17;
 };
 "@MMK_L_V" = {
-"@MMK_R_A" = -120;
+"@MMK_R_0" = -20;
+"@MMK_R_A" = -130;
+"@MMK_R_H" = 0;
+"@MMK_R_J" = -80;
+"@MMK_R_O" = -20;
+"@MMK_R_o" = -20;
 };
 "@MMK_L_Y" = {
 "@MMK_R_A" = -100;
@@ -500,6 +607,9 @@ m01 = {
 "@MMK_L_g" = {
 "@MMK_R_s" = 10;
 };
+"@MMK_L_k" = {
+"@MMK_R_V" = -40;
+};
 "@MMK_L_l" = {
 "@MMK_R_u" = 20;
 };
@@ -507,6 +617,7 @@ m01 = {
 "@MMK_R_v" = -10;
 };
 "@MMK_L_o" = {
+"@MMK_R_V" = -20;
 "@MMK_R_l" = 10;
 "@MMK_R_n" = 10;
 "@MMK_R_s" = 20;
@@ -514,6 +625,7 @@ m01 = {
 };
 "@MMK_L_r" = {
 "@MMK_R_A" = -70;
+"@MMK_R_J" = -20;
 "@MMK_R_a" = -20;
 "@MMK_R_o" = -20;
 "@MMK_R_v" = 20;
@@ -527,17 +639,30 @@ m01 = {
 };
 "@MMK_L_v" = {
 "@MMK_R_A" = -60;
+"@MMK_R_V" = -20;
 "@MMK_R_a" = -20;
 "@MMK_R_g" = -30;
 "@MMK_R_o" = -20;
 "@MMK_R_y" = -30;
 };
-A = {
-B = -20;
+o = {
+n = 0;
+};
+one = {
+H = 0;
+four = 0;
+n = 0;
+one = 0;
+three = 0;
+two = 0;
+zero = 0;
 };
 };
 m002 = {
 "@MMK_L_A" = {
+"@MMK_R_H" = -20;
+"@MMK_R_J" = -22;
+"@MMK_R_V" = -120;
 "@MMK_R_y" = -50;
 one = -60;
 seven = -60;
@@ -567,6 +692,7 @@ e_d.liga = -80;
 };
 "@MMK_L_T" = {
 "@MMK_R_a" = -100;
+"@MMK_R_o" = -20;
 };
 "@MMK_L_V" = {
 "@MMK_R_o" = -100;
@@ -596,6 +722,7 @@ seven = -40;
 "@MMK_R_a" = -20;
 "@MMK_R_o" = -20;
 "@MMK_R_v" = 20;
+o_u.liga.alt2 = -40;
 };
 "@MMK_L_s" = {
 "@MMK_R_l" = 10;
@@ -613,17 +740,64 @@ seven = -40;
 A = {
 B = 0;
 };
+E = {
+H = 0;
+};
+H = {
+H = 0;
+O = 0;
+T = 0;
+V = 0;
+n = 0;
+o = 0;
+s = 0;
+x = 0;
+};
 P.init.alt = {
 "@MMK_R_a" = 0;
+};
+d = {
+period = 0;
+};
+i = {
+n = 0;
+};
+l = {
+H = 0;
+n = 0;
+};
+n = {
+a = 0;
+n = 0;
+o = 0;
+u = 0;
+};
+o = {
+n = 0;
+};
+one = {
+H = 0;
+four = 0;
+n = 0;
+one = 0;
+three = 0;
+two = 0;
+zero = 0;
+};
+r = {
+n = 0;
+};
+v = {
+n = 0;
 };
 };
 m003 = {
 "@MMK_L_A" = {
-"@MMK_R_H" = 0;
-"@MMK_R_J" = -110;
+"@MMK_R_H" = -20;
+"@MMK_R_J" = -108;
 "@MMK_R_T" = -90;
 "@MMK_R_U" = -50;
-"@MMK_R_V" = -100;
+"@MMK_R_V" = -120;
 "@MMK_R_Y" = -140;
 "@MMK_R_t" = -40;
 };
@@ -706,8 +880,55 @@ r_e.liga = 20;
 A = {
 B = 0;
 };
+E = {
+H = 0;
+};
+H = {
+H = 0;
+O = 0;
+T = 0;
+V = 0;
+n = 0;
+o = 0;
+s = 0;
+x = 0;
+};
 c_c.liga = {
 e_d.liga = -80;
+};
+d = {
+period = 0;
+};
+i = {
+n = 0;
+};
+l = {
+H = 0;
+n = 0;
+};
+n = {
+a = 0;
+n = 0;
+o = 0;
+u = 0;
+};
+o = {
+n = 0;
+};
+one = {
+H = 0;
+four = 0;
+n = 0;
+one = 0;
+three = 0;
+two = 0;
+zero = 0;
+};
+r = {
+n = 0;
+};
+v = {
+n = 0;
 };
 x_x.liga.alt3 = {
 y_y.liga.alt3 = -30;

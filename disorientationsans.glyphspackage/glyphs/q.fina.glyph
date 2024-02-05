@@ -1,7 +1,7 @@
 {
 glyphname = q.fina;
 kernLeft = o;
-kernRight = n;
+kernRight = u;
 layers = (
 {
 layerId = m01;

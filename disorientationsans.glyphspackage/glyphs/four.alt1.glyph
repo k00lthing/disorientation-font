@@ -1,5 +1,7 @@
 {
 glyphname = four.alt1;
+kernLeft = "4";
+kernRight = "4";
 layers = (
 {
 layerId = m01;

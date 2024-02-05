@@ -1,5 +1,7 @@
 {
 glyphname = three.alt1;
+kernLeft = "2";
+kernRight = "3";
 layers = (
 {
 layerId = m01;

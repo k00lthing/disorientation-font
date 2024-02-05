@@ -1,5 +1,7 @@
 {
 glyphname = eight.alt1;
+kernLeft = "0";
+kernRight = "3";
 layers = (
 {
 layerId = m01;
