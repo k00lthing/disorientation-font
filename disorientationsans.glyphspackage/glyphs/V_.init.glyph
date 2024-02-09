@@ -1,7 +1,7 @@
 {
 glyphname = V.init;
 kernLeft = V;
-kernRight = V;
+kernRight = "V-Forward";
 layers = (
 {
 layerId = m01;

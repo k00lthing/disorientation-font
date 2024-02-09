@@ -66,7 +66,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 716;
+width = 726;
 },
 {
 layerId = m002;
@@ -131,7 +131,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 718;
+width = 728;
 },
 {
 layerId = m003;
@@ -196,7 +196,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 780;
+width = 766;
 }
 );
 metricRight = "=O";

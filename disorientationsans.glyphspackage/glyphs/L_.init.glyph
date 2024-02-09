@@ -1,7 +1,7 @@
 {
 glyphname = L.init;
 kernLeft = H;
-kernRight = L;
+kernRight = "L-Forward";
 layers = (
 {
 layerId = m01;
@@ -9,19 +9,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(56,0,l),
-(161,0,l),
-(161,700,l),
-(56,700,l)
+(60,0,l),
+(165,0,l),
+(165,700,l),
+(60,700,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(161,0,l),
-(488,0,l),
-(488,90,l),
-(161,90,l)
+(165,0,l),
+(492,0,l),
+(492,90,l),
+(165,90,l)
 );
 }
 );
@@ -41,7 +41,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 544;
+width = 552;
 },
 {
 layerId = m002;

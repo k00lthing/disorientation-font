@@ -19,7 +19,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 285;
+width = 300;
 },
 {
 layerId = m002;
@@ -39,7 +39,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 285;
+width = 300;
 },
 {
 layerId = m003;
@@ -59,7 +59,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 345;
+width = 300;
 }
 );
 unicode = 32;
