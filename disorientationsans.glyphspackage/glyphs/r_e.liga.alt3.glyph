@@ -202,7 +202,7 @@ nodes = (
 );
 }
 );
-width = 904;
+width = 894;
 }
 );
 metricLeft = r;
